@@ -1,0 +1,20 @@
+.Block {
+    border: solid;
+    border-width: 2px;
+    border-color: #433EDA;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Block-left-side {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;
+}
